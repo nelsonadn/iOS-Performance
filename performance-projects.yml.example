@@ -1,0 +1,25 @@
+projects:
+  react-native:
+    name: BankApp-RN
+    framework: react-native
+    path: ../BankApp-ReactNative
+    ios:
+      workspace: ios/BankApp.xcworkspace
+      scheme: BankApp
+      bundleId: com.company.bank.rn
+      configuration: Release
+      testTarget: BankAppUITests
+      destination: platform=iOS Simulator,id=SIMULATOR-UDID
+    results: results/react-native
+  capacitor:
+    name: BankApp-Capacitor
+    framework: capacitor
+    path: ../BankApp-Capacitor
+    ios:
+      workspace: ios/App/App.xcworkspace
+      scheme: App
+      bundleId: com.company.bank.capacitor
+      configuration: Release
+      testTarget: AppUITests
+      destination: platform=iOS Simulator,id=SIMULATOR-UDID
+    results: results/capacitor
