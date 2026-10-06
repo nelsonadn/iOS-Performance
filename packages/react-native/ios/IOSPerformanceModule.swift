@@ -1,5 +1,6 @@
 import Foundation
 import React
+import IOSPerformanceCore
 
 @objc(IOSPerformance)
 final class IOSPerformanceModule: NSObject, RCTBridgeModule {
